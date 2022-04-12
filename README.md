@@ -10,5 +10,13 @@ Di seguito sono elencati alcuni problemi noti che impediscono la corretta esecuz
 - **Secondo te, è un problema di installazione delle librerie o è effettivamente un errore di sintassi?**
 - Onestamente, non penso sia un errore di sintassi, siccome `import matplotlib.pyplot as plt`, ad esempio, funziona senza problemi.
 
-## Possibili implementazioni
-_Scrivere qui_
+## Ulteriori discussioni
+Presentati di seguito alcune discussioni correlate allo sviluppo del software
+
+### Possibili implementazioni
+Seguono alcune possibili implementazioni sulla base del codice caricato.
+
+*Da finire*
+
+## Impatto sull'economia
+Qualora il progetto venisse applicato effettivamente sui mercati finanziari, dopo aver implementato ulteriormente l'algoritmo di intelligena artificiale
