@@ -15,8 +15,8 @@ Presentati di seguito alcune discussioni correlate allo sviluppo del software
 
 ### Possibili implementazioni
 Seguono alcune possibili implementazioni sulla base del codice caricato.
+*Da finire...*
 
-*Da finire*
-
-## Impatto sull'economia
-Qualora il progetto venisse applicato effettivamente sui mercati finanziari, dopo aver implementato ulteriormente l'algoritmo di intelligena artificiale
+### Impatto sull'economia
+Qualora il progetto venisse applicato effettivamente sui mercati finanziari, dopo aver implementato ulteriormente l'algoritmo di intelligena artificiale affinché fornisca risultati ancora più attendibili, ci potrebbero essere paradossalmente gravi conseguenze economiche.
+*Da finire...*
