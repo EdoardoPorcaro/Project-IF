@@ -2,7 +2,7 @@
 Progetto di intelligenza artificiale applicata ai mercati finanziari.
 
 ## Nuovo progetto
-Con il nuovo progetto, non solo si dà una risposta alle criticità sollevate in merito al vecchio codice, ma si dona anche una veste grafica all'applicativo, usando soprattutto elementi light-weight che possano, conseguentemente, allegerire l'esecuzione. _Vedasi il paragrafo [Riferimenti utili]() per ulteriori informazioni in merito ai componenti di terza parte usati nel progetto._
+Con il nuovo progetto, non solo si dà una risposta alle criticità sollevate in merito al vecchio codice, ma si dona anche una veste grafica all'applicativo, usando soprattutto elementi light-weight che possano, conseguentemente, allegerire l'esecuzione. _Vedasi il paragrafo [Riferimenti utili](https://github.com/EdoardoPorcaro/project-if/blob/main/README.md#riferimenti-utili) per ulteriori informazioni in merito ai componenti di terza parte usati nel progetto._
 
 ### Esecuzione del progetto
 Facendo uso di Streamlit, il progetto non dispone di un file ```main.html``` da lanciare in un qualsiasi browser. Per poter eseguire l'applicativo, si richiede... _da finire_
