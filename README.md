@@ -4,11 +4,11 @@ Progetto di intelligenza artificiale applicata ai mercati finanziari.
 ## Nuovo progetto
 Con il nuovo progetto, non solo si dà una risposta alle criticità sollevate in merito al vecchio codice, ma si dona anche una veste grafica all'applicativo, usando soprattutto elementi light-weight che possano, conseguentemente, allegerire l'esecuzione. _Vedasi il paragrafo [Riferimenti utili](https://github.com/EdoardoPorcaro/project-if/blob/main/README.md#riferimenti-utili) per ulteriori informazioni in merito ai componenti di terza parte usati nel progetto._
 
-### Esecuzione del progetto
-Facendo uso di Streamlit, il progetto non dispone di un file ```main.html``` da lanciare in un qualsiasi browser. Per poter eseguire l'applicativo, si richiede l'esecuzione del comando ```streamlit run main.py``` dalla shell di Visual Studio Code affinché Streamlit generi la pagina web, che sarà aperta in una porta (generalmente comunicata dallo stesso terminale una volta ultimata la compilazione) in ```localhost```. Una volta faccio ciò, sarà sufficiente aggiornare la pagina per visualizzare le modifiche apportate al codice in tempo reale.
+### Esecuzione del codice
+Facendo uso di Streamlit, il progetto non dispone di un file ```main.html``` da lanciare in un qualsiasi browser. Per poter eseguire l'applicativo, si richiede l'esecuzione del comando ```streamlit run main.py``` (o, alternativamente, ```python -m streamlit run main.py```) dalla shell di Visual Studio Code affinché Streamlit generi la pagina web, che sarà aperta in ```localhost:8501```, generalmente. Una volta faccio ciò, sarà sufficiente aggiornare la pagina per visualizzare le modifiche apportate al codice in tempo reale. Qualora ci siano problemi e/o errori, lo stesso output della shell sarà visualizzata anche nella pagina web.
 
 ### Possibili implementazioni
-- [X] Si può migliorare l'esperienza utente aggiungendo dei brevi paragrafi che spieghino cosa è possibile ottenere mediante l'applicativo.
+- [ ] Si può migliorare l'esperienza utente aggiungendo dei brevi paragrafi che spieghino cosa è possibile ottenere mediante l'applicativo.
 - [ ] È possibile lasciare la scelta agli utenti su quale azione eseguire l'algoritmo di predizione dell'andamento anziché fornire una scelta tra quattro.
 - [ ] Sarebbe carino migliorare il tema, aggiungendo un logo e usando una palette di colori scuri.
 
