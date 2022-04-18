@@ -8,7 +8,9 @@ Con il nuovo progetto, non solo si dà una risposta alle criticità sollevate in
 Facendo uso di Streamlit, il progetto non dispone di un file ```main.html``` da lanciare in un qualsiasi browser. Per poter eseguire l'applicativo, si richiede l'esecuzione del comando ```streamlit run main.py``` dalla shell di Visual Studio Code affinché Streamlit generi la pagina web, che sarà aperta in una porta (generalmente comunicata dallo stesso terminale una volta ultimata la compilazione) in ```localhost```. Una volta faccio ciò, sarà sufficiente aggiornare la pagina per visualizzare le modifiche apportate al codice in tempo reale.
 
 ### Possibili implementazioni
-È possibile lasciare la scelta agli utenti... _da finire_
+- [X] Si può migliorare l'esperienza utente aggiungendo dei brevi paragrafi che spieghino cosa è possibile ottenere mediante l'applicativo.
+- [ ] È possibile lasciare la scelta agli utenti su quale azione eseguire l'algoritmo di predizione dell'andamento anziché fornire una scelta tra quattro.
+- [ ] Sarebbe carino migliorare il tema, aggiungendo un logo e usando una palette di colori scuri.
 
 ## Vecchio progetto
 Siccome era necessario eseguire molte modifiche al codice per implementarlo così come richiesto, ho riscritto il progetto da capo, usando il comodissimo Streamlit per implementare una GUI per l'applicativo e con Prophet come algoritmo per la predizione dell'andamento futuro dei mercati. I file del vecchio progetto sono stati, quindi, rimossi dal repository.
