@@ -1,22 +1,17 @@
 # Progetto IF
 Progetto di intelligenza artificiale applicata ai mercati finanziari.
 
-## Problemi noti
-Di seguito sono elencati alcuni problemi noti che impediscono la corretta esecuzione del programma.
-### `import` non funziona
-- L'importazione di librerie come `from tensorflow.keras.layers import LSTM`, `from tensorflow.keras.callbacks import ModelCheckpoint, TensorBoard`, `from tensorflow.keras.models import Sequential`, `from tensorflow.keras.layers import LSTM, Dense, Dropout, Bidirectional` e altre con sintassi simile non sembrano funzionare.
-- L'errore restituito è `Pylance(reportMissingImports)`, come se nell'installare TensorFlow non avessi installato tutti i moduli.
-- Per l'installazione di TensorFlow ho eseguito il comando `pip install tensorflow`; **avrei dovuto fare qualcos'altro?**
-- **Secondo te, è un problema di installazione delle librerie o è effettivamente un errore di sintassi?**
-- Onestamente, non penso sia un errore di sintassi, siccome `import matplotlib.pyplot as plt`, ad esempio, funziona senza problemi.
+## Nuovo progetto
+Con il nuovo progetto, non solo si dà una risposta alle criticità sollevate in merito al vecchio codice, ma si dona anche una veste grafica all'applicativo, usando soprattutto elementi light-weight che possano, conseguentemente, allegerire l'esecuzione. _Vedasi il paragrafo [Riferimenti utili]() per ulteriori informazioni in merito ai componenti di terza parte usati nel progetto._
 
-## Ulteriori discussioni
-Presentati di seguito alcune discussioni correlate allo sviluppo del software
+### Esecuzione del progetto
+Facendo uso di Streamlit, il progetto non dispone di un file ```main.html``` da lanciare in un qualsiasi browser. Per poter eseguire l'applicativo, si richiede... _da finire_
 
-### Possibili implementazioni
-Seguono alcune possibili implementazioni sulla base del codice caricato.
-*Da finire...*
+## Vecchio progetto
+Siccome era necessario eseguire molte modifiche al codice per implementarlo così come richiesto, ho riscritto il progetto da capo, usando il comodissimo Streamlit per implementare una GUI per l'applicativo e con Prophet come algoritmo per la predizione dell'andamento futuro dei mercati. I file del vecchio progetto sono stati, quindi, rimossi dal repository.
 
-### Impatto sull'economia
-Qualora il progetto venisse applicato effettivamente sui mercati finanziari, dopo aver implementato ulteriormente l'algoritmo di intelligena artificiale affinché fornisca risultati ancora più attendibili, ci potrebbero essere paradossalmente gravi conseguenze economiche.
-*Da finire...*
+## Riferimenti utili
+Seguono alcuni riferimenti utili relativi ai componenti di terza parte usati nel progetto.
+- Streamlit: [sito ufficiale](https://streamlit.io/), [video di presentazione](https://www.youtube.com/watch?v=R2nr1uZ8ffc&ab_channel=Streamlit).
+- Prophet: [sito ufficiale](https://facebook.github.io/prophet/), [articolo di Medium](https://towardsdatascience.com/facebook-prophet-for-time-series-forecasting-in-python-part1-d9739cc79b1d).
+
