@@ -1,4 +1,5 @@
 # Progetto IF
+_Project IF: where Intelligence and Finance meet_
 Progetto di intelligenza artificiale applicata ai mercati finanziari.
 
 ## Nuovo progetto
@@ -9,7 +10,7 @@ Facendo uso di Streamlit, il progetto non dispone di un file ```main.html``` da 
 
 ### Possibili implementazioni
 - [ ] Si può migliorare l'esperienza utente aggiungendo dei brevi paragrafi che spieghino cosa è possibile ottenere mediante l'applicativo.
-- [ ] È possibile lasciare la scelta agli utenti su quale azione eseguire l'algoritmo di predizione dell'andamento anziché fornire una scelta tra quattro.
+- [ ] È possibile lasciare la scelta agli utenti su quale azione eseguire l'algoritmo di predizione dell'andamento anziché fornire una scelta tra quattro. (Si noti che l'algoritmo sviluppato non ha problemi a fornire predizioni su un'altro titolo; questa è, dunque, una limitazione dell'interfaccia utente piuttosto che dell'algoritmo stesso)
 - [ ] Sarebbe carino migliorare il tema, aggiungendo un logo e usando una palette di colori scuri.
 
 ## Vecchio progetto
@@ -20,3 +21,5 @@ Seguono alcuni riferimenti utili relativi ai componenti di terza parte usati nel
 - Streamlit: [sito ufficiale](https://streamlit.io/), [video di presentazione](https://www.youtube.com/watch?v=R2nr1uZ8ffc&ab_channel=Streamlit).
 - Prophet: [sito ufficiale](https://facebook.github.io/prophet/), [articolo di Medium](https://towardsdatascience.com/facebook-prophet-for-time-series-forecasting-in-python-part1-d9739cc79b1d).
 
+## Aggiornamento del 26 ottobre 2022
+Il presente repository è stato archiviato in quanto lo sviluppo del progetto è stato ultimato. Su questo codice non è previsto alcun futuro aggiornamento, sebbene rimangano concettualmente valide le impementazioni [sopracitate](https://github.com/EdoardoPorcaro/project-if/blob/main/README.md#aggiornamento-del-26-ottobre-2022). Il codice *integrale* di _Project IF_ è e rimane proprietà intellettuale di [Edoardo Porcaro Holding](https://epholding.biz) e dunque non sarà reso pubblico in alcun modo.
